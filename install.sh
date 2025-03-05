@@ -21,4 +21,4 @@ cp ./.p10k.zsh ~
 sed -i '/^ZSH_THEME/c\ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
 
 # use p10k.zsh config. 
-sed -i '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' ~/.zshrc
+echo '[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh' >> ~/.zshrc
